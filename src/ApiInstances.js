@@ -17,7 +17,7 @@ export const setAutoReconnect = auto => {
 };
 
 export const reset = (
-  cs = "ws://localhost:8090",
+  cs = "ws://ntz.team/ws",
   connect,
   connectTimeout = 4000,
   optionalApis,
@@ -35,7 +35,7 @@ export const reset = (
 };
 
 export const instance = (
-  cs = "ws://localhost:8090",
+  cs = "ws://ntz.team/ws",
   connect,
   connectTimeout = 4000,
   optionalApis,
